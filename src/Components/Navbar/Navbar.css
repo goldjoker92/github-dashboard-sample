@@ -1,0 +1,14 @@
+.navbar {
+    height : 54px;
+    background-color: #00Bfff ; 
+    text-align: center;
+}
+
+h1 {
+  padding: 7px;
+  color :whitesmoke ;
+}
+
+@media screen and (max-width : 500px){
+    
+}
