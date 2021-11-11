@@ -55,10 +55,10 @@ export default function SearchBar() {
     e.preventDefault();
     if(searchInput.trim()){
       try {
-        const userRes = await fetch(`https:api.github.com/users/${searchInput.trim()}`);
+        const userRes = await fetch(`https://api.github.com/users/${searchInput.trim()}`);
         const userData = await userRes.json();
         const reposRes = await fetch(
-          `https:api.github.com/users/${searchInput.trim()}/repos`
+          `https://api.github.com/users/${searchInput.trim()}/repos`
         );
         const reposData = await reposRes.json();
   
